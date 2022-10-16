@@ -1,6 +1,6 @@
 # .github/workflows/app.yaml
 name: Sneks
-on: push
+on: [push, pull_request]
 
 jobs:
   test:
