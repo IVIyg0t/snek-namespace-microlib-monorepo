@@ -12,7 +12,7 @@ simple_snek = """[green]\
 class SimpleSnek(AbstractSnek):
     def get_snek(self) -> str:
         """
-        Returns the SKEK string.
+        Returns the simple_snek string.
 
         Args:
             self: write your description
