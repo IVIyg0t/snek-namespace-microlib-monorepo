@@ -1,7 +1,7 @@
 from abc import abstractmethod
 
 
-class AbstractSnek:
+class Snek:
     @abstractmethod
     def get_snek(self) -> str:
         """
