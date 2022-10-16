@@ -18,4 +18,10 @@ fancy_snek = """[green]\
 
 class FancySnek(AbstractSnek):
     def get_snek(self) -> str:
+        """
+        Return fancy snek string.
+
+        Args:
+            self: write your description
+        """
         return fancy_snek

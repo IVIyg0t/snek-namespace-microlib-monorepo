@@ -23,4 +23,10 @@ cute_snek = r"""[green]
 
 class CuteSnek(AbstractSnek):
     def get_snek(self) -> str:
+        """
+        Return the cute version of the string.
+
+        Args:
+            self: write your description
+        """
         return cute_snek
