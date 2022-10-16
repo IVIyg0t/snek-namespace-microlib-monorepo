@@ -85,11 +85,11 @@ description = ""
 category = "main"
 optional = false
 python-versions = "*"
-develop = false
+develop = true
 
 [package.source]
 type = "directory"
-url = "libs/CuteSnek"
+url = "CuteSnek"
 
 [[package]]
 name = "FancySnek"
@@ -98,11 +98,11 @@ description = ""
 category = "main"
 optional = false
 python-versions = "*"
-develop = false
+develop = true
 
 [package.source]
 type = "directory"
-url = "libs/FancySnek"
+url = "FancySnek"
 
 [[package]]
 name = "iniconfig"
@@ -258,14 +258,14 @@ description = ""
 category = "main"
 optional = false
 python-versions = "*"
-develop = false
+develop = true
 
 [package.dependencies]
 typer = {version = "*", extras = ["all"]}
 
 [package.source]
 type = "directory"
-url = "libs/SnekCore"
+url = "SnekCore"
 
 [[package]]
 name = "tomli"
@@ -306,7 +306,7 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "27c968726f4bedc6f1949690cb6955851a862f75330d842674bf6a95cc44f308"
+content-hash = "5be2f061d25e57089656112aa7ce6b6005571d0894ccd9f22bd3256d8e4db1f6"
 
 [metadata.files]
 attrs = []

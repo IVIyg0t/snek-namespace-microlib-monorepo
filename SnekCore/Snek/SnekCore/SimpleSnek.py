@@ -1,4 +1,4 @@
-from Snek.SnekCore.AbstractSnek import AbstractSnek
+from Snek.SnekCore.AbstractSnek import Snek
 
 simple_snek = """[green]\
     --..,_                     _,.--.
@@ -9,7 +9,7 @@ simple_snek = """[green]\
 [/green]"""
 
 
-class SimpleSnek(AbstractSnek):
+class SimpleSnek(Snek):
     def get_snek(self) -> str:
         """
         Returns the simple_snek string.
