@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7f479a7681ec9aa0254f2b16419b680c6ad8bc0a81c9faf022a9c0df9f69eea4"
+            "sha256": "6b35a9921a6ee413f819bfc493745b2599b2c662586c5a6bc0a7dfb5505a3339"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -69,8 +69,8 @@
             "version": "==1.5.0"
         },
         "snekcore": {
-            "path": "./SnekCore",
-            "version": "==0.0.1"
+            "editable": true,
+            "path": "./SnekCore"
         },
         "typer": {
             "extras": [
