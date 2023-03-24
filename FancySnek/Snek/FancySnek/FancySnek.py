@@ -1,6 +1,6 @@
 from Snek.SnekCore.AbstractSnek import Snek
 
-fancy_snek = """[green]\
+FANCY_SNEK = """[green]\
                           _,..,,,_
                      '``````^~"-,_`"-,_
        .-~c~-.                    `~:. ^-.
@@ -24,4 +24,4 @@ class FancySnek(Snek):
         Args:
             self: write your description
         """
-        return fancy_snek
+        return FANCY_SNEK

@@ -1,6 +1,6 @@
 from Snek.SnekCore.AbstractSnek import Snek
 
-cute_snek = r"""[green]
+CUTE_SNEK = r"""[green]
                     /^\/^\
                   _|__|  O|
          \/     /~     \_/ \
@@ -29,4 +29,4 @@ class CuteSnek(Snek):
         Args:
             self: write your description
         """
-        return cute_snek
+        return CUTE_SNEK

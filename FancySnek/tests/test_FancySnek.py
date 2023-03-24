@@ -1,7 +1,7 @@
-from Snek.FancySnek import FancySnek, fancy_snek
+from Snek.FancySnek import FancySnek, FANCY_SNEK
 
 
 def test_FancySnek():
     snek = FancySnek()
 
-    assert snek.get_snek() == fancy_snek
+    assert snek.get_snek() == FANCY_SNEK

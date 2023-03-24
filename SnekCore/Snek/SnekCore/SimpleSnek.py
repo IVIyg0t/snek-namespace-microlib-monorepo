@@ -1,6 +1,6 @@
 from Snek.SnekCore.AbstractSnek import Snek
 
-simple_snek = """[green]\
+SIMPLE_SNEK = """[green]\
     --..,_                     _,.--.
        `'.'.                .'`__ o  `;__.
           '.'.            .'.'`  '---'`  `
@@ -17,4 +17,4 @@ class SimpleSnek(Snek):
         Args:
             self: write your description
         """
-        return simple_snek
+        return SIMPLE_SNEK
