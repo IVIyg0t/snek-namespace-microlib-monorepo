@@ -1,4 +1,4 @@
-from Snek.SnekCore.AbstractSnek import Snek
+from Snek.SnekCore.AbstractSnek import AbstractSnek
 
 FANCY_SNEK = """[green]\
                           _,..,,,_
@@ -16,7 +16,7 @@ FANCY_SNEK = """[green]\
 [/green]"""
 
 
-class FancySnek(Snek):
+class FancySnek(AbstractSnek):
     def get_snek(self) -> str:
         """
         Return fancy snek string.

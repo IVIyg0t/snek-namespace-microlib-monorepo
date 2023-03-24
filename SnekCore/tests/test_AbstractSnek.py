@@ -1,6 +1,6 @@
-from Snek.SnekCore import Snek
+from Snek.SnekCore import AbstractSnek
 
 
 def test_AbstractSnek():
-    snek = Snek()
+    snek = AbstractSnek()
     assert snek.get_snek() is None

@@ -1,4 +1,4 @@
-from Snek.SnekCore.AbstractSnek import Snek
+from Snek.SnekCore.AbstractSnek import AbstractSnek
 
 CUTE_SNEK = r"""[green]
                     /^\/^\
@@ -21,7 +21,7 @@ CUTE_SNEK = r"""[green]
 [/green]"""
 
 
-class CuteSnek(Snek):
+class CuteSnek(AbstractSnek):
     def get_snek(self) -> str:
         """
         Return the cute version of the string.

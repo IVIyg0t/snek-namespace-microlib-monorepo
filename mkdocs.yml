@@ -1,7 +1,15 @@
 site_name: Snek Microlib
+repo_url: https://github.com/IVIyg0t/snek-namespace-microlib-monorepo
+repo_name: Snek Microlib
 theme:
   name: material
   palette:
     scheme: slate
     primary: light green
     accent: indigo
+
+nav:
+  - SnekCore: SnekCore.md
+
+plugins:
+  - mkdocstrings
