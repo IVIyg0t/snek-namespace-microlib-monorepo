@@ -1,0 +1,7 @@
+site_name: Snek Microlib
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: light green
+    accent: indigo
